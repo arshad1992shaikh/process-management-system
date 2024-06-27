@@ -1,1 +1,38 @@
+Process Management System this is different from README FILE
+Overview
+This is a Java-based process management system that allows you to create, manage, and schedule processes. The system provides a simple and intuitive way to track the status of processes and their dependencies.
 
+Features
+Create and manage processes with unique IDs, names, and descriptions
+Assign priorities to processes
+Define dependencies between processes
+Update process status (PENDING, RUNNING, COMPLETED)
+Search for processes by ID
+Remove processes
+View pending and completed process histories
+Getting Started
+Clone the repository: git clone https://github.com/your-username/process-management-system.git
+Build the project: mvn clean package (assuming you have Maven installed)
+Run the main class: java -jar target/process-management-system.jar
+Technical Details
+Built using Java 8
+Uses a modular architecture for easy maintenance and scalability
+Implements a simple process management system with pending and completed process histories
+License
+This project is licensed under the MIT License. See LICENSE for details.
+
+Contributing
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
+
+Acknowledgments
+This project was inspired by various process management systems and scheduling algorithms. Special thanks to the Java community for providing a rich ecosystem of libraries and tools.
+
+Testing
+The Main class provides a simple test case for the process management system. You can run the Main class to see the system in action.
+
+Code Structure
+The code is organized into three main classes:
+
+Process: Represents a process with a unique ID, name, and status.
+ProcessManager: Manages a list of processes and provides methods for adding, removing, searching, and updating processes.
+Main: A test class that demonstrates the usage of the process management system.
